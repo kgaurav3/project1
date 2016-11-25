@@ -15,6 +15,7 @@ gggggggggggggggggggggggggg
         width: 600
         height: 600
         Rectangle
+dddddddddddddddddddddddddddd
         {
             id:topLeftCorner
             width: parent.width / 2
