@@ -7,7 +7,6 @@ Window {
     width: 640
     height: 480
     title: qsTr("Hello World")
-mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
     Rectangle
     {
         id: root
@@ -28,8 +27,8 @@ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
         Rectangle
         {
             id: topRightCorner
-            width: parent.width / 3
-            height: parent.height / 3
+            width: parent.width / 2
+            height: parent.height /2
             anchors.right: parent.right
             gradient: Gradient
             {
@@ -54,8 +53,8 @@ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
         Rectangle
         {
             id: bottomRightCorner
-            width: parent.width / 3
-            height: parent.height / 3
+            width: parent.width / 2
+            height: parent.height /2
             anchors.right: parent.right
             anchors.bottom: parent.bottom
             gradient: Gradient
