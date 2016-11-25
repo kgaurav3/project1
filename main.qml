@@ -4,7 +4,6 @@ import QtGraphicalEffects 1.0
 
 Window {
     visible: true
-gggggggggggggggggggggggggg
     width: 640
     height: 480
     title: qsTr("Hello World")
@@ -15,8 +14,7 @@ gggggggggggggggggggggggggg
         width: 600
         height: 600
         Rectangle
-dddddddddddddddddddddddddddd
-        {
+	  {
             id:topLeftCorner
             width: parent.width / 2
             height: parent.height /2
